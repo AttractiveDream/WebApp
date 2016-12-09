@@ -1,17 +1,16 @@
-
 <html>
-  <head>
-	<link rel="stylesheet" href="./style.css">
-	<script src="http://code.jquery.com/jquery-latest.js"></script> 
-	<script src="./response.js"></script>
-  </head>
+<head>
+<link rel="stylesheet" href="./style.css">
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="./response.js"></script>
+</head>
 <body>
 
-<input type="text" id="msg" />
-<input type="button" id="execute" value="search" />
-<p id="result"></p>
+	<input type="text" id="msg" />
+	<input type="button" id="execute" value="search" />
+	<p id="result"></p>
 
-<script>
+	<script>
     $('#execute').click(function(){
 		$('#result').html('');
         $.ajax({
@@ -32,6 +31,5 @@
         });
     })
 </script>
-
 </body>
 </html>
