@@ -1,0 +1,30 @@
+#media-320, #media-768, #media-1024, #media-1025 {
+    display: none;
+    height: 0px;
+    overflow: hidden;
+}
+  
+@media all and (max-width: 320px) {
+    #media-320 { display: block; }
+    body {
+        background-color: lightgreen;
+    }
+}
+@media all and (min-width: 321px) and (max-width: 768px) {
+    #media-768 { display: block; }
+    body {
+        background-color: AliceBlue;
+    }
+}
+@media all and (min-width: 769px) and (max-width: 1024px) {
+    #media-1024 { display: block; }
+    body {
+        background-color: WhiteSmoke;
+    }
+}
+@media all and (min-width: 1025px) {
+    #media-1025 { display: block; }
+    body {
+        background-color: white;
+    }
+}
